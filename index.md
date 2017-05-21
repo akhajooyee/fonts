@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub Pages about somefonts
 
-You can use the [editor on GitHub](https://github.com/akhajooyee/fonts/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+حجم داده هایی که در اینترنت وجود دارند بسیار زیاد است و گرفتن و فرستادن اطلاعات از طریق اینترنت با الگوریتم های پیچیده ای که وجود دارد به کمترین حجم ممکن رسیده است.یکی از این راه های بهبود حجم در اینترنت کم کردن حجم فیچر هایی مثل رنگ یا قالب یا هر چیز دیگریست ولی چیز مهمی که وجود دارد اینست که با توجه به اطلاعات و سطح داکیومنت در اینترنت تقریبا حجم قابل ملاحظه ای را فونت ها میگیرند.یکی از راه های کم کردن و بهینه کردن حجم فونت ها استفاده از فونت های Font Awesome است مه با استفاده از روش هایی مثل استفاده از OTF به جای TTF است یا کم کردن جزییات در فونت و ساده کردن استایل کلی یک کارکتر (هر چند این روش باعث میشود در فونت های بزرگ شکل کارکتر به نحوه ی خوبی نمایش داده نشود ولی برای فونت های ریز مثل آیکون ها یا نوشته ها یا … که قابلیت تشخیص ساده بودن پایین است بسیار مفید است) و یا حذف کردن فایل های اضافی و کم استفاده از فونت ها و استفاده از فشرده ساز های بسیار قوی مانند WOFF  و WOFF2 .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+با این روش ها اگر 73 میلیون سایت از Font Awesome استفاده کنند و 1000 بازدید کننده داشته باشد که این فونت را نداشته باشند آنگاه 73,000,000 sites × 1,000 visitors × 26 kilobytes = 1,898 terabytes حدود 2000 ترا بایت به صورت کاملا بی استفاده هدر میرود.شاید بهینه سازی فونت در مقابل انتقال حجم های در خواست HTTP یا مدل های مختلف نشان دادن عکس یا استفاده از کتابخانه های مختلف JS زیاذ به چشم نیاید ولی باز هم در مقابل هر صفحه به طور میانگین 26 کیلو بایت ذخیره کردن در حجم بالا میتواند قابل ملاحظه باشد 
 
-### Markdown
+وقتی شما یک فونت با unitsPerEm 2048 و سایز 16px به این معنیست که  یک پیکسل در یک قالب 128 * 128 رندر میشود (2048/16 = 128) که این جزییات بسیار زیادی را برای یک پیکسل از یک کارکتر نمایش میدهد.به وضوح میتوان گفت که جزییات در چنین سایزی از دست میروند ولی میتوان آنها را وقتی که چاپ میشوند نمایش داد.با کم کردن جزییات میتوان اندازه فایل را به طور متوسط از 165548بایت به 150508 بایت رساند که این به معنی 15 کیلو بایت ذخیره داده است با روش کم کردن جزییات  Font Awesome حتی میتوان در فونت های سایز بالا نیز جزییات را از دست نداد.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akhajooyee/fonts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ما با ورژن TTF فونت تا الان استفاده میکردیم که به عنوان یک فونت مرتبط با وب سایت ها بسیار بی استفاده است(دقت در فونت در سایت و دقت در فونت به صورت desktop فرق میکند) فقط بعضی از نسخه های قدیمی اندروید فونت های TTF  یا OTF  را نیاز دارند.در این روزها بیشتر مرورگر ها از فایل های WOFF  یا WOFF2 استفاده میکنند .نسخه اصلی WOFF تقریبا 98024 بایت است ولی نسخه جدید با فشرده سازی Zopfli چیزی حدود 71632 بایت است که تقریبا میشود 26 کیلو بایت ذخیره کردن و در نسخه WOFF2 نیز از 77160 بایت به 59000 بایت تقلیل یافت(حدود 18 کیلو بایت ) که این برای ما بسیار ارزشمند است
